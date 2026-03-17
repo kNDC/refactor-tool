@@ -1,5 +1,7 @@
+/*** NO CORRECTIONS IN COMMENTS ***/
+
+/* #include <vector>  
 #include <string>
-#include <vector>  
 
 class Base {  
 public:  
@@ -27,4 +29,4 @@ void foo() {
     std::vector<MyType> vec = {{1, "obj1"}, {2, "obj2"}, {3, "obj3"}};
     for (const auto x12 : vec) {
     }
-}  
+} */

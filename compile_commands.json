@@ -1,0 +1,32 @@
+[
+{
+  "directory": "X:/Work/Programming/Yandex/Mid_C++/Sprint_8/RefactorTool/build",
+  "command": "C:\\Dev\\MSYS2\\clang64\\bin\\c++.exe -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -IX:/Work/Programming/Yandex/Mid_C++/Sprint_8/RefactorTool/include  -Wall    -fdiagnostics-color=always -fvisibility-inlines-hidden -g -std=c++23   -DEXPERIMENTAL_KEY_INSTRUCTIONS -D_FILE_OFFSET_BITS=64 -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles\\refactor_tool_tests.dir\\src\\refactor_tool.cpp.obj -c X:\\Work\\Programming\\Yandex\\Mid_C++\\Sprint_8\\RefactorTool\\src\\refactor_tool.cpp",
+  "file": "X:/Work/Programming/Yandex/Mid_C++/Sprint_8/RefactorTool/src/refactor_tool.cpp",
+  "output": "X:/Work/Programming/Yandex/Mid_C++/Sprint_8/RefactorTool/build/CMakeFiles/refactor_tool_tests.dir/src/refactor_tool.cpp.obj"
+},
+{
+  "directory": "X:/Work/Programming/Yandex/Mid_C++/Sprint_8/RefactorTool/build",
+  "command": "C:\\Dev\\MSYS2\\clang64\\bin\\c++.exe -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -IX:/Work/Programming/Yandex/Mid_C++/Sprint_8/RefactorTool/include  -Wall    -fdiagnostics-color=always -fvisibility-inlines-hidden -g -std=c++23   -DEXPERIMENTAL_KEY_INSTRUCTIONS -D_FILE_OFFSET_BITS=64 -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles\\refactor_tool_tests.dir\\tests\\main.cpp.obj -c X:\\Work\\Programming\\Yandex\\Mid_C++\\Sprint_8\\RefactorTool\\tests\\main.cpp",
+  "file": "X:/Work/Programming/Yandex/Mid_C++/Sprint_8/RefactorTool/tests/main.cpp",
+  "output": "X:/Work/Programming/Yandex/Mid_C++/Sprint_8/RefactorTool/build/CMakeFiles/refactor_tool_tests.dir/tests/main.cpp.obj"
+},
+{
+  "directory": "X:/Work/Programming/Yandex/Mid_C++/Sprint_8/RefactorTool/build",
+  "command": "C:\\Dev\\MSYS2\\clang64\\bin\\c++.exe -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -IX:/Work/Programming/Yandex/Mid_C++/Sprint_8/RefactorTool/include  -Wall    -fdiagnostics-color=always -fvisibility-inlines-hidden -g -std=c++23   -DEXPERIMENTAL_KEY_INSTRUCTIONS -D_FILE_OFFSET_BITS=64 -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles\\refactor_tool_tests.dir\\tests\\test.cpp.obj -c X:\\Work\\Programming\\Yandex\\Mid_C++\\Sprint_8\\RefactorTool\\tests\\test.cpp",
+  "file": "X:/Work/Programming/Yandex/Mid_C++/Sprint_8/RefactorTool/tests/test.cpp",
+  "output": "X:/Work/Programming/Yandex/Mid_C++/Sprint_8/RefactorTool/build/CMakeFiles/refactor_tool_tests.dir/tests/test.cpp.obj"
+},
+{
+  "directory": "X:/Work/Programming/Yandex/Mid_C++/Sprint_8/RefactorTool/build",
+  "command": "C:\\Dev\\MSYS2\\clang64\\bin\\c++.exe -IX:/Work/Programming/Yandex/Mid_C++/Sprint_8/RefactorTool/include  -Wall    -fdiagnostics-color=always -fvisibility-inlines-hidden -g -std=c++23   -DEXPERIMENTAL_KEY_INSTRUCTIONS -D_FILE_OFFSET_BITS=64 -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -stdlib=libc++ -fexceptions -o src\\CMakeFiles\\refactor_tool.dir\\main.cpp.obj -c X:\\Work\\Programming\\Yandex\\Mid_C++\\Sprint_8\\RefactorTool\\src\\main.cpp",
+  "file": "X:/Work/Programming/Yandex/Mid_C++/Sprint_8/RefactorTool/src/main.cpp",
+  "output": "X:/Work/Programming/Yandex/Mid_C++/Sprint_8/RefactorTool/build/src/CMakeFiles/refactor_tool.dir/main.cpp.obj"
+},
+{
+  "directory": "X:/Work/Programming/Yandex/Mid_C++/Sprint_8/RefactorTool/build",
+  "command": "C:\\Dev\\MSYS2\\clang64\\bin\\c++.exe -IX:/Work/Programming/Yandex/Mid_C++/Sprint_8/RefactorTool/include  -Wall    -fdiagnostics-color=always -fvisibility-inlines-hidden -g -std=c++23   -DEXPERIMENTAL_KEY_INSTRUCTIONS -D_FILE_OFFSET_BITS=64 -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -stdlib=libc++ -fexceptions -o src\\CMakeFiles\\refactor_tool.dir\\refactor_tool.cpp.obj -c X:\\Work\\Programming\\Yandex\\Mid_C++\\Sprint_8\\RefactorTool\\src\\refactor_tool.cpp",
+  "file": "X:/Work/Programming/Yandex/Mid_C++/Sprint_8/RefactorTool/src/refactor_tool.cpp",
+  "output": "X:/Work/Programming/Yandex/Mid_C++/Sprint_8/RefactorTool/build/src/CMakeFiles/refactor_tool.dir/refactor_tool.cpp.obj"
+}
+]

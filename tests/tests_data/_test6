@@ -1,0 +1,25 @@
+/*** CONST LOOP NON-REFERENCES -- OTHER LOOP VAR TYPES ***/
+
+#include <string>
+#include <vector>
+
+struct CustomType {
+    int id;
+    std::string name;
+};
+
+void process() {
+    std::vector<CustomType> vec = {{1, "abc"}, {2, "xyz"}};
+
+    for (auto x : vec) { // Ничего не меняется
+    }
+    
+    for (auto& x : vec) { // Ничего не меняется
+    }
+
+    for (CustomType x : vec) { // Ничего не меняется
+    }
+    
+    for (CustomType& x : vec) { // Ничего не меняется
+    }
+}

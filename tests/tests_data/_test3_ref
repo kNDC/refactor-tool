@@ -1,0 +1,31 @@
+/*** MISSING OVERRIDE -- BASELINE CHECKS ***/
+
+class Base {
+public:
+    virtual void func() {}
+    virtual void func(int a) = 0;
+    virtual ~Base() {}
+};
+
+class Derived : public Base {
+public:
+    void func() override {} // Переопределение требует override
+    void func(int a) override {} // Переопределение требует override
+    ~Derived() override {} // Переопределение деструктора требует override
+};
+
+class SubDerived : public Derived {
+public:
+    void func() override {} // Переопределение требует override
+    void func(int a) override {} // Переопределение требует override
+};
+
+class BaseWithOverride {
+public:
+    virtual void func() {}
+};
+
+class DerivedWithOverride : public BaseWithOverride {
+public:
+    void func() override {} // Уже с override, не меняется
+};

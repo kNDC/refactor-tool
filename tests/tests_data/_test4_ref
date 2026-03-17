@@ -1,0 +1,14 @@
+/*** MISSING OVERRIDE -- CHECKS WITH OTHER KEYWORDS ***/
+
+struct Base
+{
+    virtual void method0() const = 0;
+    virtual void method1() const {}
+};
+
+struct Derived : Base
+{
+    virtual void method0() const /*{ trap! }*/ override {} // Пропущен override
+    virtual void method1() const final /*{ trap! }*/ override {} // Пропущен override
+    ~Derived() {}
+};

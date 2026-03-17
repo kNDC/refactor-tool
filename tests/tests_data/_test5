@@ -1,0 +1,39 @@
+/*** CONST LOOP NON-REFERENCES -- BASELINE CHECKS ***/
+
+#include <string>
+#include <vector>
+
+struct CustomType {
+    int id;
+    std::string name;
+};
+
+void process() {
+    std::vector<CustomType> vec = {{1, "abc"}, {2, "xyz"}};
+
+    for (const auto x : vec) { // const auto без &
+    }
+
+    for (const CustomType x : vec) { // const явный тип без &
+    }
+
+    for (const decltype(vec)::value_type x : vec) { // const decltype без &
+    }
+
+    std::vector<int> ints = {1, 2}; // Фундаментальный тип, не меняется
+    for (const int x : ints) {
+    }
+
+    for (const unsigned x : ints) { // Фундаментальный тип, не меняется
+    }
+
+    std::vector<double> dbls = {1, 2}; // Фундаментальный тип, не меняется
+    for (const double x : ints) {
+    }
+
+    for (const float x : ints) { // Фундаментальный тип, не меняется
+    }
+
+    for (const auto& x : vec) { // Уже с &
+    }
+}
