@@ -5,14 +5,27 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "lldb",
+            "type": "cppdbg",
             "request": "launch",
-            "name": "Debug",
+            "name": "Debug for tool",
             "program": "${workspaceFolder}/build/refactor_tool",
-            "args": ["${workspaceFolder}/tests/tests_data/for_refactor.cpp"],
-            "cwd": "${workspaceFolder}",
-            "preLaunchTask": "GCC: Build Debug",
-            "initCommands": ["settings set target.disable-aslr false"]
+            "args": ["${workspaceFolder}/tests/tests_data/for_refactor.cpp", 
+                "-p",
+                "${workspaceFolder}/build/compile_commands.json"
+            ],
+            "cwd": "${workspaceFolder}/build",
+            "preLaunchTask": "Clang: Build Debug"
+        },
+        {
+            "type": "cppdbg",
+            "request": "launch",
+            "name": "Debug for tests",
+            "program": "${workspaceFolder}/build/refactor_tool_tests",
+            "args": ["-p",
+                "${workspaceFolder}/build/compile_commands.json"
+            ],
+            "cwd": "${workspaceFolder}/tests",
+            "preLaunchTask": "Clang: Build Debug"
         }
     ]
 }

@@ -2,12 +2,13 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "GCC: Build Debug",
+            "label": "Clang: Build Debug",
             "type": "shell",
             "command": [
                 "mkdir ${workspaceFolder}/build ; ",
                 "cd ${workspaceFolder}/build &&",
-                "cmake .. -DCMAKE_BUILD_TYPE=Debug -DCT_Clang_INSTALL_DIR=/usr/lib/llvm-20/ && cmake --build ."
+                "cmake .. -DCMAKE_BUILD_TYPE=Debug && ",
+                "cmake --build ."
             ],
             "presentation": {
                 "clear": true
@@ -18,12 +19,13 @@
             }
         },
         {
-            "label": "GCC: Build Release",
+            "label": "Clang: Build Release",
             "type": "shell",
             "command": [
                 "mkdir ${workspaceFolder}/build ; ",
                 "cd ${workspaceFolder}/build &&",
-                "cmake .. -DCMAKE_BUILD_TYPE=Release -DCT_Clang_INSTALL_DIR=/usr/lib/llvm-20/ && cmake --build ."
+                "cmake .. -DCMAKE_BUILD_TYPE=Release && ",
+                "cmake --build ."
             ],
             "presentation": {
                 "clear": true

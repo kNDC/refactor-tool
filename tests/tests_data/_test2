@@ -1,0 +1,12 @@
+/*** NON-VIRTUAL DESTRUCTORS -- BASELINE CHECKS ***/
+
+class BaseNoDtor {
+public:
+    int x;
+    ~BaseNoDtor(); // virtual только в объявлении...
+};
+
+BaseNoDtor::~BaseNoDtor() // ...но не в определении вне тела сущности
+{}
+
+class DerivedFromNoDtor : public BaseNoDtor {};

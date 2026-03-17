@@ -1,4 +1,4 @@
-#include <iostream>
+/*** NON-VIRTUAL DESTRUCTORS -- BASELINE CHECKS ***/
 
 class BaseNoDtor {
 public:
@@ -8,23 +8,23 @@ public:
 
 class DerivedFromNoDtor : public BaseNoDtor {};
 
-class BaseNonVirtual {  // Невиртуальный деструктор
+class BaseNonVirtual { // Невиртуальный деструктор
 public:
-    ~BaseNonVirtual() {}  //Убедимся что один раз virtual
+    ~BaseNonVirtual() {} // Убедимся, что один раз virtual
 };
 
 class DerivedFromNonVirtual : public BaseNonVirtual {};
 
 class DerivedFromNonVirtual1 : public DerivedFromNonVirtual {};
 
-class BaseVirtual {  // Уже виртуальный деструктор, не меняется
+class BaseVirtual { // Уже виртуальный деструктор, не меняется
 public:
     virtual ~BaseVirtual() {}
 };
 
 class DerivedFromVirtual : public BaseVirtual {};
 
-class Standalone {  // Нет наследников, не меняется
+class Standalone { // Нет наследников, не меняется
 public:
     ~Standalone() {}
 };
